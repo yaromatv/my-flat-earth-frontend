@@ -48,15 +48,21 @@ const App = () => {
       apiKey={process.env.GOOGLE_MAPS_API_KEY}
       onLoad={() => console.log('Maps API has loaded.')}
     >
-      <GoogleMap onCameraChange={handleCameraChange} />
-      <Cuboid snapshot={snapshot} />
-      <button onClick={handleButtonClick}>
-        FLAT
-        <br />
-        MY
-        <br />
-        EARTH
-      </button>
+      <div className="app-container">
+        <div className="cuboid-container">
+          <Cuboid snapshot={snapshot} />
+        </div>
+        <button className="center-button" onClick={handleButtonClick}>
+          FLAT
+          <br />
+          MY
+          <br />
+          EARTH
+        </button>
+        <div className="map-container">
+          <GoogleMap onCameraChange={handleCameraChange} />
+        </div>
+      </div>
     </APIProvider>
   );
 };
