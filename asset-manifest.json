@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/my-flat-earth-frontend/static/css/main.666e2b73.css",
-    "main.js": "/my-flat-earth-frontend/static/js/main.66e53bc8.js",
+    "main.js": "/my-flat-earth-frontend/static/js/main.b5e9d101.js",
     "index.html": "/my-flat-earth-frontend/index.html",
     "main.666e2b73.css.map": "/my-flat-earth-frontend/static/css/main.666e2b73.css.map",
-    "main.66e53bc8.js.map": "/my-flat-earth-frontend/static/js/main.66e53bc8.js.map"
+    "main.b5e9d101.js.map": "/my-flat-earth-frontend/static/js/main.b5e9d101.js.map"
   },
   "entrypoints": [
     "static/css/main.666e2b73.css",
-    "static/js/main.66e53bc8.js"
+    "static/js/main.b5e9d101.js"
   ]
 }
